@@ -1,1 +1,1 @@
-# ohtu-2022
+# ohtu-2022 ![CI](https://github.com/PaulusParssinen/ohtu-2022/workflows/CI/badge.svg) [![codecov](https://codecov.io/gh/PaulusParssinen/ohtu-2022/branch/master/graph/badge.svg?token=I105NTVNIK)](https://codecov.io/gh/PaulusParssinen/ohtu-2022-viikko1)
