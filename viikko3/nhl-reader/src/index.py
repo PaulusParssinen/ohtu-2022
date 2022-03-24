@@ -1,7 +1,11 @@
-from player import Player
+from player_stats import PlayerStats
+from player_reader import PlayerReader
 
 def main():
-    pass
+    url = "https://nhlstatisticsforohtu.herokuapp.com/players"
+    reader = PlayerReader(url)
+    stats = PlayerStats(reader)
+    players = stats.top_scorers_by_nationality("FIN")
 
-if __name__ == "__main__":
-    main()
+    for player in players:
+        print(player)
