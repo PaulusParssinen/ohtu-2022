@@ -61,6 +61,7 @@ class TestOstoskori(unittest.TestCase):
  
         ostokset = self.kori.ostokset()
         
+        self.assertEqual(ostokset[0].tuotteen_nimi(), "Maito")
         self.assertEqual(len(ostokset), 1)
     
     
