@@ -28,4 +28,4 @@ class Ostoskori:
         # tyhjentää ostoskorin
 
     def ostokset(self):
-        return self._ostokset.values()
+        return list(self._ostokset.values())
