@@ -19,12 +19,6 @@ class IntJoukko:
             return False
         self.joukko.remove(n)
         return True
-    
-    @staticmethod
-    def int_joukko(a):
-        joukko = IntJoukko()
-        joukko.joukko = a
-        return joukko
 
     @staticmethod
     def yhdiste(a, b):
